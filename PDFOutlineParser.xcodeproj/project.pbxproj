@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A40DAF16155FCD1B00B8E786 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40DAF15155FCD1B00B8E786 /* UIKit.framework */; };
+		A40DAF18155FCD1B00B8E786 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40DAF17155FCD1B00B8E786 /* Foundation.framework */; };
+		A40DAF1A155FCD1B00B8E786 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40DAF19155FCD1B00B8E786 /* CoreGraphics.framework */; };
+		A40DAF20155FCD1B00B8E786 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A40DAF1E155FCD1B00B8E786 /* InfoPlist.strings */; };
+		A40DAF22155FCD1B00B8E786 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A40DAF21155FCD1B00B8E786 /* main.m */; };
+		A40DAF26155FCD1B00B8E786 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A40DAF25155FCD1B00B8E786 /* AppDelegate.m */; };
+		A40DAF29155FCD1B00B8E786 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A40DAF28155FCD1B00B8E786 /* ViewController.m */; };
+		A40DAF2C155FCD1B00B8E786 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A40DAF2A155FCD1B00B8E786 /* ViewController.xib */; };
+		A40DAF34155FCD5000B8E786 /* PDFOutlineParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A40DAF33155FCD5000B8E786 /* PDFOutlineParser.m */; };
+		A40DB224155FD11900B8E786 /* alice-in-wonderland-book.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A40DB223155FD11900B8E786 /* alice-in-wonderland-book.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A40DAF11155FCD1B00B8E786 /* PDFOutlineParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFOutlineParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40DAF15155FCD1B00B8E786 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A40DAF17155FCD1B00B8E786 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A40DAF19155FCD1B00B8E786 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A40DAF1D155FCD1B00B8E786 /* PDFOutlineParser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PDFOutlineParser-Info.plist"; sourceTree = "<group>"; };
+		A40DAF1F155FCD1B00B8E786 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A40DAF21155FCD1B00B8E786 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A40DAF23155FCD1B00B8E786 /* PDFOutlineParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PDFOutlineParser-Prefix.pch"; sourceTree = "<group>"; };
+		A40DAF24155FCD1B00B8E786 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A40DAF25155FCD1B00B8E786 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A40DAF27155FCD1B00B8E786 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A40DAF28155FCD1B00B8E786 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A40DAF2B155FCD1B00B8E786 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A40DAF32155FCD5000B8E786 /* PDFOutlineParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFOutlineParser.h; sourceTree = "<group>"; };
+		A40DAF33155FCD5000B8E786 /* PDFOutlineParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFOutlineParser.m; sourceTree = "<group>"; };
+		A40DB222155FD0F600B8E786 /* define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
+		A40DB223155FD11900B8E786 /* alice-in-wonderland-book.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "alice-in-wonderland-book.pdf"; path = "PDFOutlineParser/alice-in-wonderland-book.pdf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40DAF0E155FCD1B00B8E786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40DAF16155FCD1B00B8E786 /* UIKit.framework in Frameworks */,
+				A40DAF18155FCD1B00B8E786 /* Foundation.framework in Frameworks */,
+				A40DAF1A155FCD1B00B8E786 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40DAF06155FCD1B00B8E786 = {
+			isa = PBXGroup;
+			children = (
+				A40DAF1B155FCD1B00B8E786 /* PDFOutlineParser */,
+				A40DB225155FD12500B8E786 /* Resources */,
+				A40DAF14155FCD1B00B8E786 /* Frameworks */,
+				A40DAF12155FCD1B00B8E786 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40DAF12155FCD1B00B8E786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A40DAF11155FCD1B00B8E786 /* PDFOutlineParser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A40DAF14155FCD1B00B8E786 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A40DAF15155FCD1B00B8E786 /* UIKit.framework */,
+				A40DAF17155FCD1B00B8E786 /* Foundation.framework */,
+				A40DAF19155FCD1B00B8E786 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A40DAF1B155FCD1B00B8E786 /* PDFOutlineParser */ = {
+			isa = PBXGroup;
+			children = (
+				A40DB222155FD0F600B8E786 /* define.h */,
+				A40DAF24155FCD1B00B8E786 /* AppDelegate.h */,
+				A40DAF25155FCD1B00B8E786 /* AppDelegate.m */,
+				A40DAF27155FCD1B00B8E786 /* ViewController.h */,
+				A40DAF28155FCD1B00B8E786 /* ViewController.m */,
+				A40DAF2A155FCD1B00B8E786 /* ViewController.xib */,
+				A40DAF32155FCD5000B8E786 /* PDFOutlineParser.h */,
+				A40DAF33155FCD5000B8E786 /* PDFOutlineParser.m */,
+				A40DAF1C155FCD1B00B8E786 /* Supporting Files */,
+			);
+			path = PDFOutlineParser;
+			sourceTree = "<group>";
+		};
+		A40DAF1C155FCD1B00B8E786 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A40DAF1D155FCD1B00B8E786 /* PDFOutlineParser-Info.plist */,
+				A40DAF1E155FCD1B00B8E786 /* InfoPlist.strings */,
+				A40DAF21155FCD1B00B8E786 /* main.m */,
+				A40DAF23155FCD1B00B8E786 /* PDFOutlineParser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A40DB225155FD12500B8E786 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A40DB223155FD11900B8E786 /* alice-in-wonderland-book.pdf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A40DAF10155FCD1B00B8E786 /* PDFOutlineParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A40DAF2F155FCD1B00B8E786 /* Build configuration list for PBXNativeTarget "PDFOutlineParser" */;
+			buildPhases = (
+				A40DAF0D155FCD1B00B8E786 /* Sources */,
+				A40DAF0E155FCD1B00B8E786 /* Frameworks */,
+				A40DAF0F155FCD1B00B8E786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFOutlineParser;
+			productName = PDFOutlineParser;
+			productReference = A40DAF11155FCD1B00B8E786 /* PDFOutlineParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A40DAF08155FCD1B00B8E786 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A40DAF0B155FCD1B00B8E786 /* Build configuration list for PBXProject "PDFOutlineParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A40DAF06155FCD1B00B8E786;
+			productRefGroup = A40DAF12155FCD1B00B8E786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A40DAF10155FCD1B00B8E786 /* PDFOutlineParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A40DAF0F155FCD1B00B8E786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40DAF20155FCD1B00B8E786 /* InfoPlist.strings in Resources */,
+				A40DAF2C155FCD1B00B8E786 /* ViewController.xib in Resources */,
+				A40DB224155FD11900B8E786 /* alice-in-wonderland-book.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A40DAF0D155FCD1B00B8E786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40DAF22155FCD1B00B8E786 /* main.m in Sources */,
+				A40DAF26155FCD1B00B8E786 /* AppDelegate.m in Sources */,
+				A40DAF29155FCD1B00B8E786 /* ViewController.m in Sources */,
+				A40DAF34155FCD5000B8E786 /* PDFOutlineParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A40DAF1E155FCD1B00B8E786 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A40DAF1F155FCD1B00B8E786 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A40DAF2A155FCD1B00B8E786 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A40DAF2B155FCD1B00B8E786 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A40DAF2D155FCD1B00B8E786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A40DAF2E155FCD1B00B8E786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A40DAF30155FCD1B00B8E786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PDFOutlineParser/PDFOutlineParser-Prefix.pch";
+				INFOPLIST_FILE = "PDFOutlineParser/PDFOutlineParser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A40DAF31155FCD1B00B8E786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PDFOutlineParser/PDFOutlineParser-Prefix.pch";
+				INFOPLIST_FILE = "PDFOutlineParser/PDFOutlineParser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A40DAF0B155FCD1B00B8E786 /* Build configuration list for PBXProject "PDFOutlineParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40DAF2D155FCD1B00B8E786 /* Debug */,
+				A40DAF2E155FCD1B00B8E786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A40DAF2F155FCD1B00B8E786 /* Build configuration list for PBXNativeTarget "PDFOutlineParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40DAF30155FCD1B00B8E786 /* Debug */,
+				A40DAF31155FCD1B00B8E786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A40DAF08155FCD1B00B8E786 /* Project object */;
+}
